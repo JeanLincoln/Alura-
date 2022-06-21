@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #ffff;
+  --primary-button: #167bf7;
+  --hover-primary-button: #0b64d2;
+  --hover-secondary-button: #4906a1;
+  --bg-color: #00030c;
+  --transparent-button: rgba(0, 0, 0, 0);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 5.4rem;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+#mainBackground {
+  background-image: url(./Assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 68rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#main h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+
+  width: 58.8rem;
+
+  margin: 12.5rem 79.8rem 5rem 5.4rem;
+}
+
+#main p {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 58.8rem;
+
+  margin: 2rem 79.8rem 2.2rem 5.4rem;
+}
+
+#combo {
+  width: 34.8rem;
+  height: 10rem;
+  line-height: 3.389rem;
+  margin: 0 91.4rem 5.4rem 17.8rem;
+}
+
+#main a {
+  color: var(--text-color);
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-left: 9.2rem;
+  width: 51.2rem;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  border-style: none;
+  background-color: var(--primary-button);
+  transition: all 0.5s ease;
+  margin-bottom: 1rem;
+}
+
+#main a:hover {
+  background-color: var(--hover-primary-button);
+}
+
+#main a + a {
+  color: var(--text-color);
+  background-color: var(--transparent-button);
+  border: solid 0.1rem var(--text-color);
+}
+
+#main a + a:hover {
+  background-color: var(--hover-secondary-button);
+}
+
+#plataformas img:first-child {
+  height: 56rem;
+  width: 49.8rem;
+
+  margin: 9.5rem 0 15.1rem 0;
+}
+
+#plataformFirstBlock {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+#plataformFirstBlock .text {
+  text-align: start;
+  width: 70rem;
+}
+
+.text h2 {
+  margin-bottom: 8rem;
+}
+
+#plataformSecondBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 22.604rem;
+}
+
+#plataformSecondBlock .text {
+  width: 58.8rem;
+  text-align: left;
+  margin-right: 7rem;
+}
+
+#plataformSecondBlock a {
+  color: var(--text-color);
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-left: 9.2rem;
+  width: 51.2rem;
+  padding: 1.4rem;
+  border-radius: 1rem;
+  border-style: none;
+  background-color: var(--primary-button);
+  transition: all 0.5s ease;
+  margin-bottom: 1rem;
+  width: 16.268rem;
+  margin: 1.6rem 0 0;
+}
+
+#plataformSecondBlock a:hover {
+  background-color: var(--hover-primary-button);
+}
+
+#baixeSeusCursos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20rem 26.4rem 20rem;
+}
+
+#baixeSeusCursos .text {
+  text-align: left;
+  width: 70rem;
+}
+
+#availibleDevices h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+#devices {
+  display: flex;
+  justify-content: center;
+  gap: 6.9rem;
+  margin: 4rem;
+}
+
+.device {
+  text-align: center;
+}
+
+.device h3 {
+  margin: 1.6rem 0 14.5rem 0;
+}
+
+footer {
+  text-align: center;
+}
+
+#links {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 4.071rem 20rem 4rem 20rem;
+}
+
+#links a {
+  transition: all 0.5s ease;
+}
+
+#links a:hover {
+  color: var(--primary-button);
+}
+
+#infomacoes {
+  margin: 0 20rem 9.9rem 20rem;
+}
+
+#infomacoes p {
+  font-size: 1.6rem;
+}
+
+#infomacoes p:first-child {
+  margin-bottom: 3rem;
+}
